@@ -15,7 +15,10 @@ JWT_SECRET = "JWT SECRET HERE" # You can generate one by running "openssl rand -
 LOCAL_PORT = "PORT TO LISTEN" # e.g 8080
 ```
 
-Then run `npm start`. That's pretty much it.
+Then you can run `npm start` to test it out. It should print `connected to db` if the MongoDB connection was successful.
+
+## Deployment
+You can deploy this to a cloud platform of your choice (or a VPS/VDS even). FWIW I used [Heroku](https://www.heroku.com/).
 
 ## License
 This project is licensed under **GNU General Public License v3.0**, see [LICENSE](LICENSE) for more.
